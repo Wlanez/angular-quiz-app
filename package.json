@@ -36,14 +36,14 @@
     "errorhandler": "^1.4.3",
     "express": "^4.13.4",
     "method-override": "^3.0.0",
-    "newrelic": "^5.9.1",
+    "newrelic": "^6.6.0",
     "node-env-file": "^0.1.8",
     "node-notifier": "^5.1.2",
     "spotify-web-api-node": "^4.0.0",
     "yargs": "^13.2.4"
   },
   "devDependencies": {
-    "@types/core-js": "^2.5.1",
+    "@types/core-js": "^2.5.3",
     "@types/hammerjs": "^2.0.36",
     "@types/iscroll": "^5.2.2",
     "@types/materialize-css": "^0.100.0",
@@ -67,6 +67,7 @@
     "lodash.assign": "^4.0.6",
     "material-design-icons": "^3.0.1",
     "materialize-css": "^0.98.2",
+    "module-name": "^0.0.1-security",
     "node-exec-promise": "^1.0.2",
     "normalize.css": "^8.0.1",
     "tslint": "^5.4.3",
@@ -87,6 +88,7 @@
       "hammerjs": "npm:hammerjs@^2.0.8",
       "iscroll": "npm:iscroll@^5.2.0",
       "jquery": "npm:jquery@^2.2.4",
+      "modulename": "npm:modulename@^0.0.4",
       "reflect-metadata": "npm:reflect-metadata@^0.1.13"
     },
     "devDependencies": {
@@ -111,17 +113,21 @@
       "events": "npm:jspm-nodelibs-events@^0.2.0",
       "fs": "npm:jspm-nodelibs-fs@^0.2.0",
       "http": "npm:jspm-nodelibs-http@^0.2.0",
+      "https": "npm:jspm-nodelibs-https@^0.2.0",
       "materialize-css": "npm:materialize-css@^0.100.1",
       "module": "npm:jspm-nodelibs-module@^0.2.0",
       "net": "npm:jspm-nodelibs-net@^0.2.0",
       "os": "npm:jspm-nodelibs-os@^0.2.0",
       "path": "npm:jspm-nodelibs-path@^0.2.0",
       "process": "npm:jspm-nodelibs-process@^0.2.0",
+      "punycode": "npm:jspm-nodelibs-punycode@^0.2.0",
+      "querystring": "npm:jspm-nodelibs-querystring@^0.2.0",
       "readline": "npm:jspm-nodelibs-readline@^0.2.0",
       "rxjs": "npm:rxjs@^6.4.0",
       "stream": "npm:jspm-nodelibs-stream@^0.2.0",
       "string_decoder": "npm:jspm-nodelibs-string_decoder@^0.2.0",
       "timers": "npm:jspm-nodelibs-timers@^0.2.0",
+      "tls": "npm:jspm-nodelibs-tls@^0.2.0",
       "tty": "npm:jspm-nodelibs-tty@^0.2.0",
       "url": "npm:jspm-nodelibs-url@^0.2.0",
       "util": "npm:jspm-nodelibs-util@^0.2.0",
@@ -139,7 +145,7 @@
           "_stream_transform": "readable-stream/transform"
         }
       },
-      "npm:inherits@2.0.3": {
+      "npm:inherits@2.0.4": {
         "ignore": [
           "test.js"
         ]
@@ -155,6 +161,9 @@
         "map": {}
       },
       "npm:safe-buffer@5.1.2": {
+        "browser": "index.js"
+      },
+      "npm:safe-buffer@5.2.0": {
         "browser": "index.js"
       },
       "npm:tslib@1.10.0": {

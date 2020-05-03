@@ -356,6 +356,41 @@
 			"source-map-support/*": [
 				"jspm_packages/npm/source-map-support@0.5.12/*",
 				"jspm_packages/npm/source-map-support@0.5.12/*/index"
+			],
+			"https": [
+				"jspm_packages/npm/jspm-nodelibs-https@0.2.2"
+			],
+			"https/*": [
+				"jspm_packages/npm/jspm-nodelibs-https@0.2.2/*",
+				"jspm_packages/npm/jspm-nodelibs-https@0.2.2/*/index"
+			],
+			"modulename": [
+				"jspm_packages/npm/modulename@0.0.4"
+			],
+			"modulename/*": [
+				"jspm_packages/npm/modulename@0.0.4/*",
+				"jspm_packages/npm/modulename@0.0.4/*/index"
+			],
+			"punycode": [
+				"jspm_packages/npm/jspm-nodelibs-punycode@0.2.1"
+			],
+			"punycode/*": [
+				"jspm_packages/npm/jspm-nodelibs-punycode@0.2.1/*",
+				"jspm_packages/npm/jspm-nodelibs-punycode@0.2.1/*/index"
+			],
+			"querystring": [
+				"jspm_packages/npm/jspm-nodelibs-querystring@0.2.2"
+			],
+			"querystring/*": [
+				"jspm_packages/npm/jspm-nodelibs-querystring@0.2.2/*",
+				"jspm_packages/npm/jspm-nodelibs-querystring@0.2.2/*/index"
+			],
+			"tls": [
+				"jspm_packages/npm/jspm-nodelibs-tls@0.2.1"
+			],
+			"tls/*": [
+				"jspm_packages/npm/jspm-nodelibs-tls@0.2.1/*",
+				"jspm_packages/npm/jspm-nodelibs-tls@0.2.1/*/index"
 			]
 		}
 	}
